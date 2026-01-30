@@ -1,11 +1,11 @@
 # 🐍 Snake Game on Intel 8086 Microprocessor
 
 This project is a hardware–software integrated implementation of the classic **Snake Game** developed using the **Intel 8086 microprocessor**.  
-The game runs on real hardware logic simulated in Proteus and demonstrates low-level system design principles.
+The game runs on a microprocessor-based system and demonstrates low-level system design principles.
 
 ---
 
-##  Project Objective
+## Project Objective
 
 The main goal of this project is to design an **interactive Snake Game** using the Intel 8086 microprocessor, where:
 
@@ -16,7 +16,7 @@ The main goal of this project is to design an **interactive Snake Game** using t
 
 ---
 
-##  System Overview
+## System Overview
 
 ### Hardware Components
 - **Intel 8086 Microprocessor**
@@ -29,11 +29,10 @@ The main goal of this project is to design an **interactive Snake Game** using t
 ### Software Tools
 - **8086 Assembly Language**
 - **EMU8086** (Assembly development & testing)
-- **Proteus** (Hardware simulation)
 
 ---
 
-##  System Architecture
+## System Architecture
 
 The system is designed using **Memory-Mapped I/O** architecture.
 
@@ -48,7 +47,7 @@ The 8255 PPI operates in **Mode 0 (Simple I/O)**.
 
 ---
 
-##  Project Versions
+## Project Versions
 
 ### Version 1 – I/O Verification Model
 - No external RAM or ROM
@@ -65,7 +64,7 @@ The 8255 PPI operates in **Mode 0 (Simple I/O)**.
 
 ---
 
-##  Game Logic
+## Game Logic
 
 1. **Initialization**
    - Snake starts with length 3
@@ -90,6 +89,20 @@ The 8255 PPI operates in **Mode 0 (Simple I/O)**.
 
 ---
 
+## System Demonstration
 
+### LCD Output – Score & Game Over State
+This image shows the real-time score update and the "GAME OVER" message
+displayed on the LM016L 16x2 LCD.
+
+![LCD Game Over](images/lcd_game_over.png)
+
+### Hardware Overview
+General view of the system architecture including 8086 microprocessor,
+8255 PPI, LED matrix and input buttons.
+
+![Hardware Overview](images/hardware_overview.png)
+
+---
 
 
